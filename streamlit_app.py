@@ -3,6 +3,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+from sklearn.SVM import SVC
 
 # load model from pkl
 with open("model.pkl", "rb") as f:
